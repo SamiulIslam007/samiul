@@ -3,11 +3,11 @@ function App() {
   return (
     <>
       <div className="flex justify-center items-center h-screen bg-black">
-        <h1 className="text-4xl md:text-5xl text-white">
+        <h1 className="text-3xl md:text-5xl text-white">
           Hi I am{" "}
           <span>
             <Typewriter
-              words={["Samiul Islam."]}
+              words={["Samiul Islam.", "a web developer."]}
               loop={true}
               cursor
               cursorStyle="_"
