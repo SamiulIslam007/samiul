@@ -8,7 +8,7 @@ function App() {
           <span>
             <Typewriter
               words={["Samiul Islam."]}
-              loop={5}
+              loop={true}
               cursor
               cursorStyle="_"
               typeSpeed={150}
