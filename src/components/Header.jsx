@@ -32,15 +32,11 @@ function Header() {
             I am a{" "}
             <span className="text-white">
               <Typewriter
-                words={[
-                  "front end developer.",
-                  "web developer.",
-                  "programmer.",
-                ]}
+                words={["programmer.", "web developer.", "learner"]}
                 loop={false}
                 cursor
-                typeSpeed={80}
-                deleteSpeed={60}
+                typeSpeed={70}
+                deleteSpeed={50}
                 delaySpeed={1000}
               />
             </span>
