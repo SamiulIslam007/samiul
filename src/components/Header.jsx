@@ -6,7 +6,7 @@ function Header() {
       <Navbar />
       <div className=" bg-bgPrimary h-[90vh] flex items-center justify-start">
         <div className="container mx-auto  text-center ">
-          <h1 className="text-[#ffffff] text-3xl md:text-4xl font-semibold">
+          <h1 className="text-[#ffffff] text-4xl font-semibold">
             Hi, I am{" "}
             <span className="text-[#d73131]">
               <Typewriter
@@ -20,7 +20,7 @@ function Header() {
               />
             </span>
           </h1>
-          <p className="text-[#d73131] mt-5 text-3xl md:text-4xl font-semibold">
+          <p className="text-[#d73131] mt-5 text-4xl font-semibold">
             I am a{" "}
             <span className="text-white">
               <Typewriter
