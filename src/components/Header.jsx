@@ -32,7 +32,7 @@ function Header() {
             I am a{" "}
             <span className="text-white">
               <Typewriter
-                words={["programmer.", "web developer.", "learner"]}
+                words={["programmer.", "web developer.", "learner."]}
                 loop={false}
                 cursor
                 typeSpeed={70}
