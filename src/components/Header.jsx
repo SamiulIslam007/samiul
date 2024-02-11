@@ -1,11 +1,12 @@
 import Navbar from "./Navbar";
 import samiulImg from "./samiul.jpeg";
 import { Typewriter } from "react-simple-typewriter";
+import DownloadButton from "./DownloadButton";
 function Header() {
   return (
     <header className=" ">
       <Navbar />
-      <div className=" bg-bgPrimary h-[90vh] flex items-center justify-start">
+      <div className=" bg-bgPrimary h-[90vh] flex flex-col items-center justify-center">
         <div className="container mx-auto  text-center ">
           <div className="w-[200px] h-[200px] mx-auto ">
             <img
@@ -42,6 +43,7 @@ function Header() {
             </span>
           </p>
         </div>
+        <DownloadButton />
       </div>
     </header>
   );
